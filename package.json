@@ -10,7 +10,8 @@
     "format": "prettier --write \"{src,lib}/**/*.{ts,tsx,js,jsx,json,css,md,html}\"",
     "prettier-check": "prettier --check \"{src,lib}/**/*.{ts,tsx,js,jsx,json,css,md,html}\"",
     "preview": "vite preview",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "postinstall": "yarn "
   },
   "peerDependencies": {
     "react": "^16.14.0",
